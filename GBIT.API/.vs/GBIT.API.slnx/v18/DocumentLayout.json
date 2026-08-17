@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\migrations\\20260707103931_addcreatedon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:migrations\\20260707103931_addcreatedon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\obj\\Debug\\net10.0\\52jalsl3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\52jalsl3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\data\\gbitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:data\\gbitdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\migrations\\20260707095658_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:migrations\\20260707095658_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\gbit.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:gbit.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|c:\\users\\hiteshjetti\\onedrive - gbit inc\\c# repoz\\gbit.api\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E69ACB6-753E-CC5F-BECE-3EA86FD52A83}|GBIT.API.csproj|solutionrelative:controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\obj\\Debug\\net10.0\\52jalsl3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net10.0\\52jalsl3.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-17T06:11:44.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260707103931_AddCreatedOn.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Migrations\\20260707103931_AddCreatedOn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260707103931_AddCreatedOn.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Migrations\\20260707103931_AddCreatedOn.cs",
+              "RelativeToolTip": "Migrations\\20260707103931_AddCreatedOn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T10:39:32.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:23:39.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:24:09.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-07T09:05:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GBITDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Data\\GBITDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\GBITDbContext.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Data\\GBITDbContext.cs",
+              "RelativeToolTip": "Data\\GBITDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T09:48:34.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:08:59.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "52jalsl3.sql ",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\obj\\Debug\\net10.0\\52jalsl3.sql",
+              "RelativeDocumentMoniker": "obj\\Debug\\net10.0\\52jalsl3.sql",
+              "ToolTip": "52jalsl3.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-07T10:03:35.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260707095658_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Migrations\\20260707095658_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260707095658_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Migrations\\20260707095658_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260707095658_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T09:56:58.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GBIT.API.csproj",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\GBIT.API.csproj",
+              "RelativeDocumentMoniker": "GBIT.API.csproj",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\GBIT.API.csproj",
+              "RelativeToolTip": "GBIT.API.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-07T09:47:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:37:33.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:09:46.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\HiteshJetti\\OneDrive - GBIT Inc\\c# repoz\\GBIT.API\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "Controllers\\ItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T06:09:35.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

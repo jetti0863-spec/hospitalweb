@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- HTML5 Document -->
+
+<html>
+
+<head>
+
+    <!-- Page Title -->
+    <title>Contact Us</title>
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <!-- Main Content -->
+    <main class="contact-page">
+
+        <!-- Contact Form -->
+        <form onsubmit="return sendMessage()">
+
+            <!-- Page Heading -->
+            <h2>Contact Us</h2>
+
+            <!-- Description -->
+            <p>
+
+                Fill out the form below to get in touch with our team.
+                We will respond to your query as soon as possible.
+
+            </p>
+
+            <br>
+
+            <!-- Full Name -->
+            <label>Full Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Full Name"
+                maxlength="30"
+                required
+                oninput="validateName()">
+
+            <span id="nameError" class="error"></span>
+
+            <br><br>
+
+            <!-- Email -->
+            <label>Email Address</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Email Address"
+                required
+                oninput="validateEmail()">
+
+            <span id="emailError" class="error"></span>
+
+            <br><br>
+
+            <!-- Phone Number -->
+            <label>Phone Number</label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="+91XXXXXXXXXX"
+                maxlength="13"
+                required
+                oninput="validatePhone()">
+
+            <span id="phoneError" class="error"></span>
+
+            <br><br>
+
+            <!-- Subject -->
+            <label>Subject</label>
+
+            <input
+                type="text"
+                id="subject"
+                placeholder="Enter Subject"
+                maxlength="50"
+                required
+                oninput="validateSubject()">
+
+            <span id="subjectError" class="error"></span>
+
+            <br><br>
+
+            <!-- Message -->
+            <label>Message</label>
+
+            <textarea
+                id="message"
+                placeholder="Enter Your Message"
+                required
+                oninput="validateMessage()"></textarea>
+
+            <span id="messageError" class="error"></span>
+
+            <br><br>
+
+            <!-- Buttons -->
+            <button type="submit">
+
+                Submit
+
+            </button>
+
+            <button type="reset">
+
+                Reset
+
+            </button>
+
+            <button
+                type="button"
+                onclick="history.back()">
+
+                ← Back
+
+            </button>
+
+        </form>
+
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Load Header and Footer -->
+    <script src="js/loadComponents.js"></script>
+
+    <!-- Contact JavaScript -->
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>

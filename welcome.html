@@ -1,0 +1,509 @@
+```html
+<!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document -->
+
+<html>
+<!-- Root element that contains the entire webpage -->
+
+<head>
+
+    <!-- Sets the title shown in the browser tab -->
+    <title>Avinash Nursing Home | Medicine Purchase</title>
+
+    <!-- Links the external CSS file for page styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+<!-- Contains all visible content of the webpage -->
+
+
+    <!-- Header -->
+    <div id="header"></div>
+
+
+    <!-- Main section -->
+    <main>
+
+
+        <!-- Welcome Section -->
+        <div class="welcome">
+
+            <!-- Main page heading -->
+            <h1>
+                Welcome
+            </h1>
+
+            <br>
+
+            <!-- Displays logged-in user's name -->
+            <h2 id="userName"></h2>
+
+            <br>
+
+            <!-- Login success message -->
+            <p>
+                Login Successful.
+            </p>
+
+            <br>
+
+            <!-- Opens medicine purchase modal -->
+            <button
+                type="button"
+                onclick="openModal()">
+
+                Purchase Medicine
+
+            </button>
+
+
+            <!-- Logs the user out -->
+            <button
+                type="button"
+                onclick="signOut()">
+
+                Sign Out
+
+            </button>
+
+        </div>
+
+
+        <br><br>
+
+
+        <!-- Medicine Purchase Table -->
+        <table
+            id="medicineTable"
+            border="1"
+            width="100%"
+            cellpadding="10">
+
+            <!-- Table Heading -->
+            <thead>
+
+                <tr>
+
+                    <th>Medicine Type</th>
+
+                    <th>Medicine Name</th>
+
+                    <th>Batch Number</th>
+
+                    <th>Expiry Date</th>
+
+                    <th>Quantity</th>
+
+                    <th>Supplier</th>
+
+                    <th>Purchase Cost</th>
+
+                    <th>Selling Price</th>
+
+                    <th>Total Amount</th>
+
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+
+            <!-- JavaScript dynamically inserts medicines here -->
+            <tbody id="medicineBody">
+
+            </tbody>
+
+        </table>
+
+
+        <!-- =================================================
+             MEDICINE PURCHASE MODAL
+             ================================================= -->
+
+        <div id="itemModal" class="modal">
+
+
+            <!-- Modal Content -->
+            <div class="modal-content">
+
+
+                <!-- Modal Title -->
+                <h2>
+                    Purchase Medicine
+                </h2>
+
+                <br>
+
+
+                <!-- Medicine Type -->
+                <label>
+                    Medicine Type
+                </label>
+
+                <br><br>
+
+
+                <!-- Tablet -->
+                <input
+                    type="radio"
+                    name="medicineType"
+                    value="Tablet"
+                    checked>
+
+                Tablet
+
+                <br>
+
+
+                <!-- Capsule -->
+                <input
+                    type="radio"
+                    name="medicineType"
+                    value="Capsule">
+
+                Capsule
+
+                <br>
+
+
+                <!-- Syrup -->
+                <input
+                    type="radio"
+                    name="medicineType"
+                    value="Syrup">
+
+                Syrup
+
+                <br>
+
+
+                <!-- Injection -->
+                <input
+                    type="radio"
+                    name="medicineType"
+                    value="Injection">
+
+                Injection
+
+                <br>
+
+
+                <!-- Ointment -->
+                <input
+                    type="radio"
+                    name="medicineType"
+                    value="Ointment">
+
+                Ointment
+
+                <br><br>
+
+
+                <!-- Medicine Name -->
+                <label>
+                    Medicine Name
+                </label>
+
+                <input
+                    type="text"
+                    id="medicineName"
+                    placeholder="Enter Medicine Name"
+                    maxlength="100"
+                    oninput="validateMedicineName()">
+
+
+                <!-- Medicine Name Error -->
+                <span
+                    id="medicineNameError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Medicine Details -->
+                <label>
+                    Medicine Details
+                </label>
+
+                <input
+                    type="text"
+                    id="medicineDetails"
+                    placeholder="Example: 500mg"
+                    maxlength="100"
+                    oninput="validateMedicineDetails()">
+
+
+                <!-- Details Error -->
+                <span
+                    id="medicineDetailsError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Batch Number -->
+                <label>
+                    Batch Number
+                </label>
+
+                <input
+                    type="text"
+                    id="batchNumber"
+                    placeholder="Enter Batch Number"
+                    maxlength="30"
+                    oninput="validateBatchNumber()">
+
+
+                <!-- Batch Error -->
+                <span
+                    id="batchNumberError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Expiry Date -->
+                <label>
+                    Expiry Date
+                </label>
+
+                <input
+                    type="date"
+                    id="expiryDate"
+                    onchange="validateExpiryDate()">
+
+
+                <!-- Expiry Error -->
+                <span
+                    id="expiryDateError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Quantity -->
+                <label>
+                    Quantity
+                </label>
+
+                <input
+                    type="number"
+                    id="quantity"
+                    placeholder="Enter Quantity"
+                    min="1"
+                    oninput="calculateTotal()">
+
+
+                <!-- Quantity Error -->
+                <span
+                    id="quantityError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Supplier -->
+                <label>
+                    Supplier / Manufacturer
+                </label>
+
+                <select
+                    id="supplier"
+                    onchange="validateSupplier()">
+
+                    <option value="">
+                        Select Supplier
+                    </option>
+
+                    <option value="Sun Pharma">
+                        Sun Pharma
+                    </option>
+
+                    <option value="Cipla">
+                        Cipla
+                    </option>
+
+                    <option value="Dr. Reddy's Laboratories">
+                        Dr. Reddy's Laboratories
+                    </option>
+
+                    <option value="Lupin">
+                        Lupin
+                    </option>
+
+                    <option value="Mankind Pharma">
+                        Mankind Pharma
+                    </option>
+
+                    <option value="Abbott">
+                        Abbott
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+
+                <!-- Supplier Error -->
+                <span
+                    id="supplierError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Purchase Cost -->
+                <label>
+                    Purchase Cost per Unit
+                </label>
+
+                <input
+                    type="number"
+                    id="cost"
+                    placeholder="Enter Purchase Cost"
+                    min="0.01"
+                    step="0.01"
+                    oninput="calculateTotal()">
+
+
+                <!-- Cost Error -->
+                <span
+                    id="costError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Selling Price -->
+                <label>
+                    Selling Price per Unit
+                </label>
+
+                <input
+                    type="number"
+                    id="price"
+                    placeholder="Enter Selling Price"
+                    min="0.01"
+                    step="0.01"
+                    oninput="calculateTotal()">
+
+
+                <!-- Price Error -->
+                <span
+                    id="priceError"
+                    class="error">
+
+                </span>
+
+
+                <br>
+
+
+                <!-- Total Purchase Amount -->
+                <p id="purchaseTotal">
+
+                    Total Purchase Amount :
+                    ₹0.00
+
+                </p>
+
+
+                <br>
+
+
+                <!-- Total Selling Amount -->
+                <p id="sellingTotal">
+
+                    Total Selling Amount :
+                    ₹0.00
+
+                </p>
+
+
+                <br>
+
+
+                <!-- Cancel Button -->
+                <button
+                    type="button"
+                    onclick="closeModal()">
+
+                    Cancel
+
+                </button>
+
+
+                <!-- Purchase Medicine Button -->
+                <button
+                    type="button"
+                    onclick="addMedicine()">
+
+                    Purchase Medicine
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+
+    <!-- Load Header and Footer -->
+    <script src="js/loadComponents.js"></script>
+
+
+    <!-- Welcome Page JavaScript -->
+    <script src="js/welcome.js"></script>
+
+
+    <!-- Medicine Purchase JavaScript -->
+    <script src="js/medicinePurchase.js"></script>
+
+
+</body>
+
+</html>
+```
+
+### Your new table will look like this
+
+| Medicine Type | Medicine Name    | Batch  | Expiry  | Quantity | Supplier | Purchase Cost | Selling Price | Total |
+| ------------- | ---------------- | ------ | ------- | -------: | -------- | ------------: | ------------: | ----: |
+| Tablet        | Paracetamol      | PCM001 | 2027-10 |      100 | Supplier |         ₹1.50 |         ₹2.00 |  ₹200 |
+| Capsule       | Example Medicine | ABC123 | 2028-04 |       50 | Supplier |         ₹3.00 |         ₹5.00 |  ₹250 |
+
+One important change: your HTML now calls `medicinePurchase.js` instead of `addItem.js`. You'll need the JavaScript rewritten too, because your old `addItem.js` functions such as `validateDescription()`, `calculateGST()`, and `addItem()` are designed for IT assets rather than medicines.

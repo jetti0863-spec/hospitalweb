@@ -1,0 +1,6 @@
+@GBIT.API_HostAddress = http://localhost:5078
+
+GET {{GBIT.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- Tells the browser this is an HTML5 document. -->
+
+<html>
+<!-- Root element of the webpage. -->
+
+<head>
+<!-- Contains information about the webpage (not visible to the user). -->
+
+    <!-- Title displayed in the browser tab -->
+    <title>Create Account</title>
+
+    <!-- Links the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<!-- Everything inside body is displayed on the webpage. -->
+
+    <!-- Empty container where header.html is loaded -->
+    <div id="header"></div>
+
+    <!-- Main content of the page -->
+    <main>
+
+        <!-- Registration Form
+             When Submit button is clicked,
+             register() function runs.
+             return false prevents page refresh. -->
+     <form id="signupForm" onsubmit="return register(event)">
+
+            <!-- Form Heading -->
+            <h2>Create Account</h2>
+
+            <!-- Small description -->
+            <p>
+
+                Fill all the details to create your account.
+
+            </p>
+
+            <br>
+
+            <!--First Name -->
+
+            <!-- Label for First Name -->
+            <label>
+
+                First Name
+
+            </label>
+
+            <!-- User enters first name
+                 oninput calls validateFirstName()
+                 every time the user types -->
+            <input
+                type="text"
+                id="fname"
+                placeholder="Enter First Name"
+                maxlength="20"
+                required
+                oninput="validateFirstName()">
+
+            <!-- Error message appears here -->
+            <span
+                id="fnameError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!--  Last Name-->
+
+            <label>
+
+                Last Name
+
+            </label>
+
+            <input
+                type="text"
+                id="lname"
+                placeholder="Enter Last Name"
+                maxlength="20"
+                required
+                oninput="validateLastName()">
+
+            <!-- Error message -->
+            <span
+                id="lnameError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!--  Email -->
+
+            <label>
+
+                Email Address
+
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                required
+                oninput="validateEmail()">
+
+            <!-- Email validation error -->
+            <span
+                id="emailError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!--  Password  -->
+
+            <label>
+
+                Password
+
+            </label>
+
+            <input
+                type="password"
+                id="pwd"
+                placeholder="Enter Password"
+                maxlength="20"
+                required
+                oninput="validatePassword()">
+
+            <!-- Password error message -->
+            <span
+                id="pwdError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!-- Password rules shown to user -->
+            <div>
+
+                <b>Password Rules</b>
+
+                <br><br>
+
+                <!-- Rule 1 -->
+                <span id="rule1">
+
+                    * Minimum 8 Characters
+
+                </span>
+
+                <br>
+
+                <!-- Rule 2 -->
+                <span id="rule2">
+
+                    * One Uppercase Letter
+
+                </span>
+
+                <br>
+
+                <!-- Rule 3 -->
+                <span id="rule3">
+
+                    * One Lowercase Letter
+
+                </span>
+
+                <br>
+
+                <!-- Rule 4 -->
+                <span id="rule4">
+
+                    * One Number
+
+                </span>
+
+                <br>
+
+                <!-- Rule 5 -->
+                <span id="rule5">
+
+                    * One Special Character
+
+                </span>
+
+            </div>
+
+            <br>
+
+            <!-- Phone Number  -->
+
+            <label>
+
+                Phone Number
+
+            </label>
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="+91XXXXXXXXXX"
+                maxlength="13"
+                required
+                oninput="validatePhone()">
+
+            <!-- Phone validation error -->
+            <span
+                id="phoneError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!--  Date Of Birth  -->
+
+            <label>
+
+                Date Of Birth
+
+            </label>
+
+            <!-- User selects DOB
+                 Minimum allowed date is 01-01-1995 -->
+            <input
+                type="date"
+                id="dob"
+                min="1995-01-01"
+                required
+                onchange="validateDOB()">
+
+            <!-- DOB validation error -->
+            <span
+                id="dobError"
+                class="error">
+
+            </span>
+
+            <br><br>
+
+            <!--  Buttons -->
+
+            <!-- Calls register() through form -->
+            <button type="submit">
+
+                Create Account
+
+            </button>
+
+            <!-- Clears all fields -->
+            <button type="reset">
+
+                Reset
+
+            </button>
+
+            <br><br>
+
+            <!-- Redirects user to Sign In page -->
+            <p>
+
+                Already have an account?
+
+                <a href="signin.html">
+
+                    Sign In
+
+                </a>
+
+            </p>
+
+        </form>
+
+    </main>
+
+    <!-- Empty container where footer.html is loaded -->
+    <div id="footer"></div>
+
+    <!-- Loads header.html and footer.html automatically -->
+    <script src="js/loadComponents.js"></script>
+
+    <!-- Loads JavaScript containing validations and register() -->
+    <script src="js/signup.js"></script>
+
+</body>
+
+</html>
